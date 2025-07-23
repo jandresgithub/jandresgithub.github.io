@@ -1,0 +1,46 @@
+<!-- CORREGIDO: sobre-mi.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre mí</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/particles.min.js"></script>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="habilidades.html">Habilidades</a></li>
+      <li><a href="portafolio.html">Portafolio</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div id="particles-js"></div>
+
+  <section class="sobre-mi-layout">
+    <div class="foto-container">
+      <img src="img/perfil.jpeg" alt="Foto de Jose Andrés" class="mi-foto-separada">
+    </div>
+
+    <div class="sobre-mi-bloque">
+      <h1> Jose Andrés Choque Gómez</h1>
+      <p>
+        Soy estudiante de Ingeniería de Sistemas, apasionado por la tecnología y la automatización de procesos. Con conocimientos en desarrollo de software, redes informaticas y electronica.<br><br>
+        En búsqueda de una oportunidad para aplicar mis conocimientos en un entorno profesional y continuar aprendiendo.
+      </p>
+      <a href="docs/JoseAndresCV.pdf" download class="btn-descargar-cv"> Descargar CV</a>
+    </div>
+  </section>
+
+  <!-- Cargar configuración de particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'js/particles.json', function () {
+      console.log('particles.js cargado correctamente');
+    });
+  </script>
+</body>
+</html>
